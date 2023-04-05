@@ -1,0 +1,41 @@
+{
+  "name": "whatsapp-blasjet-api",
+  "description": "Simple RESTful WhatsApp API",
+  "private": true,
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "TY Studio Dev",
+  "homepage": "https://blastjet.biz.id",
+  "engines": {
+    "node": ">=15.5.0"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "github:amiruldev20/baileys",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "canvas": "^2.11.0",
+    "chatgpt": "^5.2.2",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "mysql2": "^2.3.3",
+    "node-cleanup": "^2.1.2",
+    "node-cron": "^3.0.2",
+    "node-fetch": "^3.3.0",
+    "pino": "^8.8.0",
+    "qrcode": "^1.5.1",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-xo": "^0.39.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  }
+}
